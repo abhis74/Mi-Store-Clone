@@ -3,3 +3,10 @@ body{
     padding: 0;
     background-color:rgb(228, 228, 228);
 }
+.carousel-indicators button{
+    
+    border: none;
+    width: 34px;
+    margin: 12px;
+    height: 4px;
+}

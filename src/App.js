@@ -13,7 +13,7 @@ import ProductReviews from "./components/ProductReviews.js"
 import Videos from "./components/Videos.js"
 import Banner from "./components/Banner.js"
 import Footer from "./components/Footer.js"
-import NavOption from "./components/NavOption.js"
+// import NavOption from "./components/NavOption.js"
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       < PreNavbar />
 
       < Navbar logo={data.logo} />
-      <NavOption miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle}  home={data.home} accessories={data.accessories} audio={data.audio}/>
+      {/* <NavOption miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle}  home={data.home} accessories={data.accessories} audio={data.audio}/> */}
       < Slider start={data.banner.start} />
       < Offers offer={data.offer} />
       < Heading text = "STAR PRODUCTS"/>

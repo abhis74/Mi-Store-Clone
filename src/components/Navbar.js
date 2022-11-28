@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navbar.css";
-
+import { Link } from "react-router-dom";
 const searchIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -23,30 +23,30 @@ const Navbar = ({ logo }) => {
         </a>
       </div>
 
-      <a className="navlinks" href="/#miphones">
+      <Link className="navlinks" to="/miphones">
         Mi Phones
-      </a>
-      <a className="navlinks" href="/#redmiphones">
+      </Link>
+      <Link className="navlinks" to="/redmiphones">
         Redmi Phones
-      </a>
-      <a className="navlinks" href="/#tv">
+      </Link>
+      <Link className="navlinks" to="/tv">
         TV
-      </a>
-      <a className="navlinks" href="/#laptops">
+      </Link>
+      <Link className="navlinks" to="/laptops">
         Laptops
-      </a>
-      <a className="navlinks" href="/#lifestyle">
+      </Link>
+      <Link className="navlinks" to="/lifestyle">
         Fitness & Lifestyle
-      </a>
-      <a className="navlinks" href="/#home">
+      </Link>
+      <Link className="navlinks" to="/home">
         Home
-      </a>
-      <a className="navlinks" href="/#audio">
+      </Link>
+      <Link className="navlinks" to="/udio">
         Radio
-      </a>
-      <a className="navlinks" href="/#accessories">
+      </Link>
+      <Link className="navlinks" to="/accessories">
         Accessories
-      </a>
+      </Link>
 
       <div className="searchbox">
         <input type="text" name="search" placeholder="Search Products" />
